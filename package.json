@@ -1,0 +1,22 @@
+{
+    "name": "@lectrum/config-commitlint",
+    "version": "1.1.0",
+    "main": "index.js",
+    "repository": "git@git.lectrum.io:npm/configs/commitlint.git",
+    "private": false,
+    "author": "d.vakatsiienko <d.vakatsiienko@lectrum.io>",
+    "licence": "MIT",
+    "scripts": {
+        "prepublishOnly": "node scripts -build"
+    },
+    "devDependencies": {
+        "@babel/core": "~7.0.0",
+        "@babel/preset-env": "~7.0.0",
+        "@babel/register": "~7.0.0",
+        "@lectrum/config-commitlint": "^1.0.8",
+        "@lectrum/eslint-config-core": "^1.0.18",
+        "babel-plugin-add-module-exports": "~0.2.1",
+        "commitlint": "^7.1.1",
+        "cz-conventional-changelog": "^2.1.0"
+    }
+}
