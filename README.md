@@ -9,11 +9,11 @@ This package contains a rule set for [commitlint](https://github.com/marionebl/c
 Using `yarn`:
 
 ```
-yarn add @lectrum.configs/commitlint
+yarn add @lectrum/config-commitlint
 ```
 
 Using `npm`
 
 ```
-npm i @lectrum.configs/commitlint
+npm i @lectrum/config-commitlint
 ```
